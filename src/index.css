@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  appearance: none;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(0, 0, 0, .3);
+  transition: .3s;
+  border-radius: 5px;
+}

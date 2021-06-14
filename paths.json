@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@pages": [
+                "src/Pages"
+            ],
+            "@routes": [
+                "src/Routes"
+            ],
+            "@components": [
+                "src/Components"
+            ],
+            "@interfaces": [
+                "src/Interfaces"
+            ],
+            "@api": [
+                "src/Api"
+            ],
+            "@layouts": [
+                "src/Layouts"
+            ],
+            "@validations": [
+                "src/Validations"
+            ],
+            "@redux": [
+                "src/Redux"
+            ],
+            "@constants": [
+                "src/Constants"
+            ],
+            "@module": [
+                "src/Module"
+            ]
+        }
+    }
+}
